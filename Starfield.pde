@@ -7,8 +7,8 @@ void setup()
 	{
 		aBunch[i] = new NormalParticle();
 	}
-	aBunch[1] = new JumboParticle();
-	aBunch[0] = new OddballParticle();
+	aBunch[aBunch.length - 2] = new JumboParticle();
+	aBunch[aBunch.length - 1] = new OddballParticle();
 	
 }
 void draw()
